@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/black"
-    tools:context="com.example.Activities.VerificationActivity">
+    tools:context="com.example.omninos.Activities.VerificationActivity">
 
     <include
         android:id="@+id/toolbar"

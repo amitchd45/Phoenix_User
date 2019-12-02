@@ -1,4 +1,4 @@
-package com.example.Activities;
+package com.example.omninos.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 

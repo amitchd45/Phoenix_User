@@ -11,11 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.Activities.HomeActivity"></activity>
-        <activity android:name="com.example.Activities.VerificationActivity" />
-        <activity android:name="com.example.Activities.SignUpActivity" />
-        <activity android:name="com.example.Activities.LoginActivity" />
-        <activity android:name="com.example.Activities.SplashScreenActivity">
+        <activity android:name="com.example.omninos.Activities.HomeActivity"></activity>
+        <activity android:name="com.example.omninos.Activities.VerificationActivity" />
+        <activity android:name="com.example.omninos.Activities.SignUpActivity" />
+        <activity android:name="com.example.omninos.Activities.LoginActivity" />
+        <activity android:name="com.example.omninos.Activities.SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

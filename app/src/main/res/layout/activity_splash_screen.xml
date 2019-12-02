@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/phoenix_logo"
-    tools:context="com.example.Activities.SplashScreenActivity">
+    tools:context="com.example.omninos.Activities.SplashScreenActivity">
 
 <!--    <ImageView-->
 <!--        android:layout_centerInParent="true"-->
