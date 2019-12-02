@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_appointment"
+            android:icon="@drawable/appointment"
+            android:title="My Appointments" />
+        <item
+            android:id="@+id/nav_appointments_history"
+            android:icon="@drawable/appointment"
+            android:title="Appointments History" />
+        <item
+            android:id="@+id/nav_medical_history"
+            android:icon="@drawable/medical_history"
+            android:title="Medical History" />
+        <item
+            android:id="@+id/nav_family_history"
+            android:icon="@drawable/past_family_history"
+            android:title="Past/Family History" />
+
+        <item
+            android:id="@+id/nav_fab_doctors"
+            android:icon="@drawable/star__3_"
+            android:title="Favourite Doctors" />
+
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/settings"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/icon"
+            android:title="About Us" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+    </group>
+
+</menu>

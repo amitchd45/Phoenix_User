@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.example.Activities.VerificationActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/top_layout" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar">
+
+            <RelativeLayout
+                android:id="@+id/relative1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include layout="@layout/logo" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relative1">
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardview1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="@dimen/card_view_margin_left"
+                    android:layout_marginRight="@dimen/card_view_margin_right"
+                    android:elevation="10dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="@dimen/cardCornerRadius"
+                    app:cardPreventCornerOverlap="false"
+                    app:cardUseCompatPadding="true">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:id="@+id/linearLayout1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="@dimen/padding_inside_card_view">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/dp_10"
+                                android:gravity="center"
+                                android:padding="8dp"
+                                android:text="@string/verification_header_name" />
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="30dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerHorizontal="true"
+                                    android:gravity="center_horizontal"
+                                    android:text="Enter Your Verification Code" />
+
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/dp_20">
+
+                                <LinearLayout
+                                    android:id="@+id/linearLayout"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerHorizontal="true"
+                                    android:gravity="center_horizontal"
+                                    android:orientation="horizontal">
+
+                                    <EditText
+                                        android:id="@+id/otp1"
+                                        android:layout_width="@dimen/dp_30"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="6dp"
+                                        android:gravity="center"
+                                        android:inputType="number"
+                                        android:maxLength="1"
+                                        android:textStyle="bold" />
+
+                                    <EditText
+                                        android:id="@+id/otp2"
+                                        android:layout_width="@dimen/dp_30"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="6dp"
+                                        android:gravity="center"
+                                        android:inputType="number"
+                                        android:maxLength="1"
+                                        android:textStyle="bold" />
+
+                                    <EditText
+                                        android:id="@+id/otp3"
+                                        android:layout_width="@dimen/dp_30"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="6dp"
+                                        android:gravity="center"
+                                        android:inputType="number"
+                                        android:maxLength="1"
+                                        android:textStyle="bold" />
+
+                                    <EditText
+                                        android:id="@+id/otp4"
+                                        android:layout_width="@dimen/dp_30"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="6dp"
+                                        android:gravity="center"
+                                        android:inputType="number"
+                                        android:maxLength="1"
+                                        android:textStyle="bold" />
+
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/dp_30"
+                                android:layout_marginBottom="@dimen/dp_20">
+
+                                <Button
+                                    android:id="@+id/varification_submit_btn"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="@dimen/dp_30"
+                                    android:layout_marginRight="@dimen/dp_30"
+                                    android:background="@drawable/gradient_button2"
+                                    android:text="@string/submit_button"
+                                    android:textAllCaps="false"
+                                    android:textColor="@android:color/white"
+                                    android:textStyle="bold" />
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativeLayout2"
+                android:layout_marginTop="@dimen/dp_20"
+                android:gravity="center"
+                android:text="@string/resend"
+                android:textColor="@android:color/white" />
+
+        </RelativeLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

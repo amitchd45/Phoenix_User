@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Phoenix_User</string>
+    <string name="username_or_email">Username or E-mail</string>
+    <string name="username_or_email_hint">info@omninos.com</string>
+    <string name="password">Password</string>
+    <string name="password_hint">**************</string>
+    <string name="forget_password">Forgot Password ?</string>
+    <string name="login_button">Login</string>
+    <string name="or_login_with">Or login with</string>
+    <string name="do_not_have_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="username">Username</string>
+    <string name="hint_username_">Omninos Solutions</string>
+    <string name="email">Email</string>
+    <string name="conform_password">Confirm Password</string>
+    <string name="phone_no">Phone Number</string>
+    <string name="dob">Date Of Birth</string>
+    <string name="dob_hint">11 may 1995</string>
+    <string name="address">Address</string>
+    <string name="have_account">You have an account?</string>
+    <string name="login">login</string>
+    <string name="signup_button">Sign Up</string>
+    <string name="verification_header_name">We have send a verification code on your\nphone number +915468795.Please\nenter the verification code below.</string>
+    <string name="submit_button">Submit</string>
+    <string name="resend"><u>Resend</u></string>
+    <string name="congratulations">Congratulations</string>
+    <string name="congratulations_veryfied_message">Verification Successful</string>
+    <string name="done">Done</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+    />
+</resources>
